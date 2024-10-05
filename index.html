@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS5.css">
+</head>
+<body>
+    <div>
+        <div id="web"><h1>WEBSITE FAZAR IHSAN</h1></div>
+    </div>
+    <div id="Table">
+        <div id="Tugas">
+            <b>Menu</b><br>
+            <a href="#" onclick="loadcontent('CSS1.html')">Jawaban Tugas Individu 1<br></a>
+            <a href="#" onclick="loadcontent('CSS2.html')">Jawaban Tugas Individu 2<br></a>
+            <a href="#" onclick="loadcontent('CSS3.html')">Jawaban Tugas Individu 3<br></a>
+            <a href="#" onclick="loadcontent('CSS4.html')">Jawaban Tugas Individu 4<br></a>
+        </div>
+        <div class="Hasil" id="Hasil1">
+            Content Goes Here
+        </div>
+    </div>
+    <div id="Footer">
+        <p>Copyright © Fazar Ihsan</p>
+    </div>
+
+    <script>
+        function loadcontent(page){
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', page, true);
+            xhr.onreadystatechange = function(){
+                if (xhr.readyState == 4  && xhr.status == 200) {
+                    document.getElementById('Hasil1').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</body>
+</html>

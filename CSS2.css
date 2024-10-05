@@ -1,0 +1,23 @@
+h2 {
+    color: green;
+}
+
+h3 {
+    text-align: right;
+    color: blue;
+}
+
+#e {
+    text-decoration: underline;
+    color: blue;
+}
+
+#q {
+    text-shadow: 3px 3px red;
+    color: blue;
+}
+
+#w {
+    text-transform: capitalize;
+    color: blue;
+}

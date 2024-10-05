@@ -1,0 +1,68 @@
+#q {
+    border: dotted;
+    border-width: 1px; 
+    border-color: black;
+}
+
+#w {
+    border: dashed;
+    border-width: 2px;
+    border-color: black;
+}
+
+#e {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#r {
+    border: double;
+    border-width: 3px;
+    border-color: black;
+}
+
+#t {
+    border: groove;
+    border-width: 3px;
+    border-color: black;
+}
+
+#y {
+    border: ridge;
+    border-width: 3px;
+    border-color: black;
+}
+
+#u {
+    border: inset;
+    border-width: 3px;
+    border-color: black;
+}
+
+#i {
+    border: outset;
+    border-width: 3px;
+    border-color: black;
+}
+
+#o {
+    border: none;
+    border-width: 1px;
+    border-color: black;
+}
+
+#p {
+    border: hidden;
+    border-width: 1px;
+    border-color: black;
+}
+
+#mixed {
+    border-top: dotted;
+    border-right: dashed;
+    border-left: double;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: black;
+}

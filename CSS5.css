@@ -1,0 +1,31 @@
+#web {
+    border: 1px solid;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+#Table {
+    display: flex;
+}
+
+#Tugas {
+    border: 1px solid;
+    background-color: yellow;
+    color: black;
+    width: 20%;
+}
+
+#Hasil {
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    width: 80%;
+}
+
+#Footer {
+    border: 1px solid;
+    background-color: green;
+    color: white;
+    text-align: center;
+}

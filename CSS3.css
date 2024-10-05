@@ -1,0 +1,23 @@
+#w {
+    color: blue;
+}
+
+#f {
+    font-family: sans-serif;
+}
+
+#r {
+    font-family: 'Times New Roman';
+}
+
+#fw {
+    font-weight: bold;
+}
+
+#fg {
+    font-style: italic;
+}
+
+#fz {
+    font-size: 20px;
+}

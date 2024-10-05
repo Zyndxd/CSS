@@ -1,0 +1,72 @@
+#table {
+    width: 100%;
+    border-color: gray;
+}
+
+#NIS {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    font-family: sans-serif;
+}
+
+#NM {
+    background-color: blue;
+    color: white;
+    width: 60%;
+    font-family: sans-serif;
+}
+
+#AM {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    font-family: sans-serif;
+}
+
+#N1 {
+    background-color: antiquewhite;
+    color: black;
+    width: 20%;
+    font-family: sans-serif;
+}
+
+#NM1 {
+    background-color: antiquewhite;
+    color: black;
+    width: 60%;
+    font-family: sans-serif;
+}
+
+#AM1 {
+    background-color: antiquewhite;
+    color: black;
+    width: 20%;
+    font-family: sans-serif;
+}
+
+#N2 {
+    background-color: white;
+    color: black;
+    width: 20%;
+    font-family: sans-serif;
+}
+
+#NM2 {
+    background-color: white;
+    color: black;
+    width: 60%;
+    font-family: sans-serif;
+}
+
+#AM2 {
+    background-color: white;
+    color: black;
+    width: 20%;
+    font-family: sans-serif;
+}
+
+#table :hover {
+    background-color: green;
+    color: black;
+}
